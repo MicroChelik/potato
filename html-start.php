@@ -40,7 +40,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid top-line">
+		<div class="container-fluid top-line px-0">
 			<div class="row">
 				<div class="col-12 px-0 imgW100">
 					<img src="img/top-line.svg">

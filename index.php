@@ -11,7 +11,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="container">
+	<section class="container our-products">
 		<div class="row">
 			<div class="col-12">
 				<h2>Наша продукция</h2>
@@ -97,6 +97,11 @@
 		</div>
 	</section>
 	<section class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2>Новости</h2>
+			</div>
+		</div>
 		<div class="row slider-news">
 			<div class="col">
 				<div class="news-card">
@@ -135,9 +140,16 @@
 				</div>
 			</div>
 		</div>
+		<div class="row justify-content-between slider-news-arrows arrows d-lg-flex d-none">
+			<div class="col-auto">
+				<img src="img/icons/arrow-left.svg" class="slider-news-prev" alt="назад">
+			</div>
+			<div class="col-auto">
+				<img src="img/icons/arrow-right.svg" class="slider-news-next" alt="вперед">
+			</div>
+		</div>
 	</section>
-	<br><br><br><br><br><br><br><br>
-
+	
 <?php
 	include('html-end.php');
 ?>
