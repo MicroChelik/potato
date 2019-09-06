@@ -5,11 +5,12 @@
 		<div class="container px-0">
 			<ol class="breadcrumb">
 		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
-	    		<li class="breadcrumb-item active" aria-current="page">Новости</li>
+		    	<li class="breadcrumb-item"><a href="">Новости</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">Полезная информация</li>
 		 	</ol>
 		</div>
 	</div>
-	<section class="newses">
+	<section class="newses information">
 		<div class="news-block">
 			<div class="container">
 				<div class="row">
@@ -19,13 +20,12 @@
 						</div>
 					</div>
 					<div class="col-lg-7 newses-description">
-						<p class="newses-title">Зарегистрирован сорт Каптива!</p>
+						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
-							Рады сообщить, что сорт внесен в реестр с 2018г!
-							Засухоустойчтовость, пластичность, крупные и красивые вытянутые клубни - основные преимущества сорта.
+							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
 						</p>
 						<p class="newses-date">15.02.2018</p>
-						<a href="" class="about-news">Читать далее</a>
+						<a href="" class="about-news">Скачать</a>
 					</div>
 				</div>
 			</div>
@@ -34,12 +34,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 newses-description">
-						<p class="newses-title">НОВИНКИ 2017 года! Мэдисон, Мадейра, Бернина!</p>
+						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
-							Внесены в реестр 3 новых перспективных сорта: Мэдисон, Мадейра, Бернина.
+							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
 						</p>
 						<p class="newses-date">15.02.2018</p>
-						<a href="" class="about-news">Читать далее</a>
+						<a href="" class="about-news">Скачать</a>
 					</div>
 					<div class="col-lg-5">
 						<div class="newses-img">
@@ -58,13 +58,12 @@
 						</div>
 					</div>
 					<div class="col-lg-7 newses-description">
-						<p class="newses-title">Зарегистрирован сорт Каптива!</p>
+						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
-							Рады сообщить, что сорт внесен в реестр с 2018г!
-							Засухоустойчтовость, пластичность, крупные и красивые вытянутые клубни - основные преимущества сорта.
+							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
 						</p>
 						<p class="newses-date">15.02.2018</p>
-						<a href="" class="about-news">Читать далее</a>
+						<a href="" class="about-news">Скачать</a>
 					</div>
 				</div>
 			</div>
@@ -73,12 +72,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 newses-description">
-						<p class="newses-title">НОВИНКИ 2017 года! Мэдисон, Мадейра, Бернина!</p>
+						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
-							Внесены в реестр 3 новых перспективных сорта: Мэдисон, Мадейра, Бернина.
+							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
 						</p>
 						<p class="newses-date">15.02.2018</p>
-						<a href="" class="about-news">Читать далее</a>
+						<a href="" class="about-news">Скачать</a>
 					</div>
 					<div class="col-lg-5">
 						<div class="newses-img">

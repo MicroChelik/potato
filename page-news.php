@@ -1,6 +1,15 @@
 <?php
 	include('html-start.php');
 ?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb">
+		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+		    	<li class="breadcrumb-item"><a href="">Новости</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">День картофельного поля</li>
+		 	</ol>
+		</div>
+	</div>
 	<section class="news-img container">
 		<div class="row">
 			<div class="col-12">

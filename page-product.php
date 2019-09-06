@@ -1,6 +1,16 @@
 <?php
 	include('html-start.php');
 ?>
+	<div aria-label="breadcrumb" class="breadcrumbNav">
+		<div class="container px-0">
+			<ol class="breadcrumb">
+		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
+		    	<li class="breadcrumb-item"><a href="">Сорта кортофеля</a></li>
+		    	<li class="breadcrumb-item"><a href="">Подраздел сортов картофеля</a></li>
+	    		<li class="breadcrumb-item active" aria-current="page">Беллароза</li>
+		 	</ol>
+		</div>
+	</div>
 	<section class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -65,7 +75,7 @@
 			</div>
 			<div class="col-12">
 				<div class="div-table">
-					<div class="d-flex justify-content-between">
+					<div class="d-flex justify-content-between align-items-center">
 						<div class="div-table-top d-flex">
 							<div class="table-toggle characteristic active">
 								<p>Характеристики сорта</p>
@@ -74,7 +84,7 @@
 								<p>Рекомендации по выращиванию</p>
 							</div>
 						</div>
-						<div class="">
+						<div class="download-description">
 							<img src="img/icons/file.svg">
 							<a href="">Скачать описание</a>
 						</div>

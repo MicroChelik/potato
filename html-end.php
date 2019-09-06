@@ -2,12 +2,33 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-2">
-					<img src="img/footerLogo.png">
-					<div class="d-flex align-items-center">
+					<img src="img/footerLogo.png" class="mb-4">
+					<div class="d-flex align-items-center mb-4">
 						<p class="mb-0 mr-3">Мы в соцсетях:</p>
 						<img src="img/vk.png">
 					</div>
-					<button class="lightGreenBtn">Написать нам</button>
+					<a data-fancybox data-animation-duration="700" data-src="#writeUs" href="javascript:;">
+						<button class="lightGreenBtn">Написать нам</button>
+					</a>
+						<div style="display: none;" id="writeUs" class="animated-modal">
+							<div class="card">
+								<div class="card-header">
+									<h1>Написать нам</h1>
+								</div>
+								<div class="card-body">
+									<form class="my-form">
+										<input type="text" placeholder="Ваше имя*" required="">
+										<input type="email" placeholder="Ваш e-mail*" required="">
+										<input type="tel" placeholder="Ваш номер телефона*" required="">
+										<textarea placeholder="Комментарий" required=""></textarea>
+										<p>
+											Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+										</p>
+										<input type="submit" placeholder="Отправить" class="greenBtn">
+									</form>
+								</div>
+							</div>
+						</div>
 				</div>
 				<div class="col-2 offset-lg-1">
 					<p class="title">Меню</p>
@@ -68,7 +89,9 @@
 							roseuroplant@yandex.ru
 						</p>
 					</div>
-					<button class="greenBtn">Обратный звонок</button>
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<button class="greenBtn">Обратный звонок</button>
+					</a>
 				</div>
 			</div>
 			<div class="row footer-last-row">
@@ -81,7 +104,7 @@
 					</p>
 				</div>
 				<div class="col-3">
-					<img src="img/el-logo.png">
+					<a href=""><img src="img/el-logo.png"></a>
 				</div>
 			</div>
 		</div>

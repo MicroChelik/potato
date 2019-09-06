@@ -26,7 +26,41 @@
 					</p>
 				</div>
 				<div class="col-2">
-					<button class="greenBtn">Обратный звонок</button>
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<button class="greenBtn">Обратный звонок</button>
+					</a>
+						<div style="display: none;" id="orderCall" class="animated-modal">
+							<div class="card">
+								<div class="card-header">
+									<h1>Обратный звонок</h1>
+								</div>
+								<div class="card-body">
+									<form class="my-form">
+										<input type="text" placeholder="Ваше имя" required>
+										<input type="tel" placeholder="Ваш номер телефона" required="">
+										<p>
+											Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+										</p>
+										<a data-fancybox data-animation-duration="700" data-src="#thanks" href="javascript:;">
+											<input type="submit" placeholder="Отправить" value="Отправить" class="greenBtn">
+										</a>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div style="display: none;" id="thanks" class="animated-modal">
+							<div class="card">
+								<div class="card-header">
+									<h1>Спасибо</h1>
+								</div>
+								<div class="card-body">
+									<p class="mb-5">
+										Ваша заказ успешно принят.
+									</p>
+									<button class="greenBtn" data-fancybox-close>Закрыть</button>
+								</div>
+							</div>
+						</div>
 				</div>
 				<div class="col-4 d-flex align-items-center justify-content-center">
 					<img src="img/icons/mail.svg" class="mr-3">
@@ -40,10 +74,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid top-line px-0">
+		<div class="container-fluid top-line ">
 			<div class="row">
-				<div class="col-12 px-0 imgW100">
-					<img src="img/top-line.svg">
+				<div class="col-12 imgW100">
+					<!-- <img src="img/top-line.svg"> -->
 				</div>
 			</div>
 		</div>
@@ -53,7 +87,7 @@
 					<ul class="topmenu">
 						<li><a href="">Главная</a></li>
 						<li><div class="li-div"><a href="" class="submenu-link">О компании</a><div class="redArrow"></div></div>
-							<ul class="submenu">
+							<ul class="submenu submenu1">
 								<li><a href="">Женские валенки</a></li>
 								<li><a href="">Мужские валенки</a></li>
 								<li><a href="">Детские валенки</a></li>
@@ -61,7 +95,7 @@
 						</li>
 						<li><a href="">Сорта картофеля</a></li>
 						<li><div class="li-div"><a href="" class="submenu-link">Новости</a><div class="redArrow"></div></div>
-							<ul class="submenu">
+							<ul class="submenu submenu2">
 								<li><a href="">Женские валенки</a></li>
 								<li><a href="">Мужские валенки</a></li>
 								<li><a href="">Детские валенки</a></li>

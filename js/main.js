@@ -16,6 +16,14 @@ $(document).ready(function(){
 		$('.recommendations-tables').css('display', 'flex');
 		$('.characteristic-tables').css('display', 'none');
 	});
+	$('.delivery-buttons button').click(function(){
+		$('.delivery-buttons button').removeClass("active");
+		$(this).toggleClass("active");
+	})
+	$('.pay-buttons button').click(function(){
+		$('.pay-buttons button').removeClass("active");
+		$(this).toggleClass("active");
+	})
 
 	$('.inc').click(function () {
 		var $input = $(this).parent().find('input');
