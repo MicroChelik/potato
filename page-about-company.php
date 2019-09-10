@@ -9,30 +9,32 @@
 		 	</ol>
 		</div>
 	</div>
-	<section class="about-company-img imgW100">
+	<section class=" imgW100">
 		<div class="container">
-			<div class="row justify-content-center mb-5">
-				<div class="col-2 imgW100">
-					<img src="img/logo.png">
+			<div class="about-company-img">
+				<div class="row justify-content-center mb-4">
+					<div class="col-lg-2 col-6 imgW100">
+						<img src="img/logo.png">
+					</div>
 				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-8">
-					<h2>Высококачественный семенной картофель сортов немецкой селекции</h2>
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<h2>Высококачественный семенной картофель сортов немецкой селекции</h2>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-2 offset-lg-2">
-					<p class="company-titile">>12</p>
-					<p>Лет на рынке строительства</p>
-				</div>
-				<div class="col-2 offset-lg-1">
-					<p class="company-titile">15+</p>
-					<p>Сортов картофеля</p>
-				</div>
-				<div class="col-3 offset-lg-1">
-					<p class="company-titile">11 000</p>
-					<p>Тонн картофеля продано за 2017 год</p>
+				<div class="row company-numbers">
+					<div class="col-lg-2 offset-lg-2">
+						<p class="company-titile">>12</p>
+						<p>Лет на рынке строительства</p>
+					</div>
+					<div class="col-lg-2 offset-lg-1">
+						<p class="company-titile">15+</p>
+						<p>Сортов картофеля</p>
+					</div>
+					<div class="col-lg-3 offset-lg-1">
+						<p class="company-titile">11 000</p>
+						<p>Тонн картофеля продано за 2017 год</p>
+					</div>
 				</div>
 			</div>
 		</div>

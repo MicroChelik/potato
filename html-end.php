@@ -1,5 +1,12 @@
 	<footer>
-		<div class="container">
+		<div class="container dekstop-footer">
+			<div class="row justify-content-end">
+				<div class="call-icon">
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<img src="img/icons/call.svg">
+					</a>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-2">
 					<img src="img/footerLogo.png" class="mb-4">
@@ -94,7 +101,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="row footer-last-row">
+			<div class="row footer-last-row mb-3">
 				<div class="col-3">
 					<p>2006-2019 © «РусЕвроплант»</p>
 				</div>
@@ -108,9 +115,36 @@
 				</div>
 			</div>
 		</div>
+		<div class="container mob-footer d-block d-lg-none">
+			<div class="row">
+				<div class="col-12">
+					<p>
+						Адрес: Удмуртия, c. Завьялово, 
+						ул. Гольянская, 96 Б (10 км на ю.-в. от
+						г. Ижевск)
+					</p>
+					<p>
+						<a href="tel:(3412) 62-23-51">(3412) 62-23-51</a><br> <a href="tel:(3412) 62-13-35">(3412) 62-13-35</a>
+					</p>
+					<p><a href="mailto:roseuroplant@yandex.ru">roseuroplant@yandex.ru</a></p>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-7">
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<button class="greenBtn">Обратный звонок</button>
+					</a>
+				</div>
+				<div class="col-5">
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<img src="img/icons/call.svg">
+					</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 
-	<!-- <div id="toTop" ><img src="img/icons/top.png"></div> -->
+	<div id="toTop" ><img src="img/icons/top.svg"></div>
 	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>

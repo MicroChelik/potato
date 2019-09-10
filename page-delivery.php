@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-8 delivery-description">
+			<div class="col-lg-8 delivery-description order-2 order-lg-1">
 				<div class="delivery-description-left">
 					<p class="mb-3">
 						Внезапно, реплицированные с зарубежных источников, современные исследования являются только методом политического участия и объявлены нарушающими общечеловеческие нормы этики и морали. Как уже неоднократно упомянуто, акционеры крупнейших компаний заблокированы в рамках своих собственных рациональных ограничений. 
@@ -41,7 +41,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-4 order-1 order-lg-2">
 				<div class="delivery-img">
 					<img src="img/delivery2.png">
 				</div>

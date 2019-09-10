@@ -6,7 +6,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12 main-img px-0 imgW100">
-					<img src="img/bg1.png">
+					<img src="img/bg1.png" class="d-none d-lg-block">
+					<img src="img/bgMob.png" class="d-block d-lg-none">
 				</div>
 			</div>
 		</div>

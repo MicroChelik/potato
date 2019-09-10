@@ -33,7 +33,7 @@
 		<div class="news-block">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7 newses-description">
+					<div class="col-lg-7 newses-description order-2 order-lg-1">
 						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
 							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
@@ -41,7 +41,7 @@
 						<p class="newses-date">15.02.2018</p>
 						<a href="" class="about-news">Скачать</a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 order-1 order-lg-2">
 						<div class="newses-img">
 							<img src="img/newses2.png">
 						</div>
@@ -71,7 +71,7 @@
 		<div class="news-block">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7 newses-description">
+					<div class="col-lg-7 newses-description order-2 order-lg-1">
 						<p class="newses-title">Название полезной информации в две строчки</p>
 						<p>
 							Внезапно, ключевые особенности структуры проекта, превозмогая сложившуюся непростую экономическую ситуацию, ограничены исключительно образом мышления.
@@ -79,7 +79,7 @@
 						<p class="newses-date">15.02.2018</p>
 						<a href="" class="about-news">Скачать</a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 order-1 order-lg-2">
 						<div class="newses-img">
 							<img src="img/newses2.png">
 						</div>

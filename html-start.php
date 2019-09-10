@@ -14,14 +14,16 @@
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container dekstop-header">
 			<div class="row first-line align-items-center py-2">
 				<div class="col-2 imgW100">
-					<img src="img/logo.png">
+					<a href="index.php">
+						<img src="img/logo.png">
+					</a>
 				</div>
 				<div class="col-3 d-flex align-items-center">
 					<img src="img/icons/phone.svg">
-					<p>
+					<p class="decorition">
 						<a href="tel:(3412) 62-23-51">(3412) 62-23-51</a> <br> <a href="tel:(3412) 62-13-35">(3412) 62-13-35</a>
 					</p>
 				</div>
@@ -64,46 +66,110 @@
 				</div>
 				<div class="col-4 d-flex align-items-center justify-content-center">
 					<img src="img/icons/mail.svg" class="mr-3">
-					<p><a href="mailto:roseuroplant@yandex.ru">roseuroplant@yandex.ru</a></p>
+					<p class="decorition"><a href="mailto:roseuroplant@yandex.ru">roseuroplant@yandex.ru</a></p>
 				</div>
 				<div class="col-1 d-flex align-items-center justify-content-between">
-					<img src="img/icons/basket.svg">
+					<a href="">
+						<img src="img/icons/basket.svg">
+					</a>
 					<div class="greenBg" noselect>
 						<p>(1)</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid top-line ">
+		<div class="container-fluid top-line">
 			<div class="row">
 				<div class="col-12 imgW100">
 					<!-- <img src="img/top-line.svg"> -->
 				</div>
 			</div>
 		</div>
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row mob-nav-row">
+					<div class="col-auto">
+						<div id="nav-icon3">
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						  <span></span>
+						</div>
+					</div>
+					<div class="col-auto">
+						<img src="img/logo-mob.png">
+					</div>
+					<div class="col-auto d-flex align-items-center justify-content-between">
+						<div class="greenBg" noselect>
+							<p>(1)</p>
+						</div>
+						<a href="">
+							<img src="img/icons/basket.svg">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="mob-line">
+			</div>
+		</div>
 		<nav class="container">
-			<div class="row justify-content-end">
+			<div class="row justify-content-end dekstop-nav">
 				<div class="col-8">
 					<ul class="topmenu">
 						<li><a href="">Главная</a></li>
 						<li><div class="li-div"><a href="" class="submenu-link">О компании</a><div class="redArrow"></div></div>
 							<ul class="submenu submenu1">
-								<li><a href="">Женские валенки</a></li>
-								<li><a href="">Мужские валенки</a></li>
-								<li><a href="">Детские валенки</a></li>
+								<li><a href="">О компании</a></li>
+								<li><a href="">Качество</a></li>
 							</ul>
 						</li>
 						<li><a href="">Сорта картофеля</a></li>
 						<li><div class="li-div"><a href="" class="submenu-link">Новости</a><div class="redArrow"></div></div>
 							<ul class="submenu submenu2">
-								<li><a href="">Женские валенки</a></li>
-								<li><a href="">Мужские валенки</a></li>
-								<li><a href="">Детские валенки</a></li>
+								<li><a href="">Новости</a></li>
+								<li><a href="">Полезная <br> информация</a></li>
 							</ul>
 						</li>
-						<li><a href="">доставка и оплата</a></li>
+						<li><a href="">Доставка и оплата</a></li>
 						<li><a href="">Контакты</a></li>
 					</ul>
+				</div>
+			</div>
+			<div class="row mob-nav justify-content-center">
+				<div class="col-12 grey-line">
+					<ul class="topmenu mb-3">
+						<li><a href="">Главная</a></li>
+						<li><div class="li-div"><a href="" class="submenu-link">О компании</a><div class="redArrow"></div></div>
+							<ul class="submenu">
+								<li><a href="">О компании</a></li>
+								<li><a href="">Качество</a></li>
+							</ul>
+						</li>
+						<li><a href="">Сорта картофеля</a></li>
+						<li><div class="li-div"><a href="" class="submenu-link">Новости</a><div class="redArrow"></div></div>
+							<ul class="submenu">
+								<li><a href="">Новости</a></li>
+								<li><a href="">Полезная <br> информация</a></li>
+							</ul>
+						</li>
+						<li><a href="">Доставка и оплата</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-center mb-3 mt-3">
+					<img src="img/icons/phone.svg">
+					<p class="decorition">
+						<a href="tel:(3412) 62-23-51">(3412) 62-23-51</a> <br> <a href="tel:(3412) 62-13-35">(3412) 62-13-35</a>
+					</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-center mb-3">
+					<img src="img/icons/mail.svg" class="mr-3">
+					<p class="decorition"><a href="mailto:roseuroplant@yandex.ru">roseuroplant@yandex.ru</a></p>
+				</div>
+				<div class="col-10">
+					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+						<button class="greenBtn">Обратный звонок</button>
+					</a>
 				</div>
 			</div>
 		</nav>

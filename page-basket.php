@@ -16,11 +16,11 @@
 			</div>
 		</div>
 		<div class="row product-row align-items-center">
-			<div class="col-lg-1">
+			<div class="col-lg-1 col-auto order-2 order-lg-1">
 				<input type="checkbox" id="checkbox">
 				<label for="checkbox"></label>
 			</div>
-			<div class="col-lg-11 product-card">
+			<div class="col-lg-11 product-card order-1 order-lg-2">
 				<div class="col-lg-2">
 					<img src="img/product-card.png">
 				</div>
@@ -41,11 +41,11 @@
 			</div>
 		</div>
 		<div class="row product-row align-items-center">
-			<div class="col-lg-1">
+			<div class="col-lg-1 col-auto order-2 order-lg-1">
 				<input type="checkbox" id="checkbox2">
 				<label for="checkbox2"></label>
 			</div>
-			<div class="col-lg-11 product-card">
+			<div class="col-lg-11 product-card order-1 order-lg-2">
 				<div class="col-lg-2">
 					<img src="img/product-card.png">
 				</div>
@@ -88,18 +88,25 @@
 			</div>
 			<div class="col-lg-5 basket-form">
 				<form class="my-form">
+					<p class="mobile-p">Адрес:</p>
 					<input type="text">
+					<p class="mobile-p">Способ доставки *:</p>
 					<div class="form-buttons delivery-buttons">
 						<button type="button" class="active">Самовывоз</button>
 						<button type="button">Транспортная компания</button>
 					</div>
+					<p class="mobile-p">Способ оплаты *:</p>
 					<div class="form-buttons pay-buttons">
 						<button type="button">При получении</button>
 						<button type="button" class="active">Оплата банковской картой</button>
 					</div>
+					<p class="mobile-p">Ф.И.О. *:</p>
 					<input type="text">
+					<p class="mobile-p">E-mail *:</p>
 					<input type="text">
+					<p class="mobile-p">Телефон *:</p>
 					<input type="text">
+					<p class="mobile-p">Сообщение:</p>
 					<textarea rows="3"></textarea>
 					<p>
 						Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>

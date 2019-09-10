@@ -33,7 +33,7 @@
 		<div class="news-block">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7 newses-description">
+					<div class="col-lg-7 newses-description order-2 order-lg-1">
 						<p class="newses-title">НОВИНКИ 2017 года! Мэдисон, Мадейра, Бернина!</p>
 						<p>
 							Внесены в реестр 3 новых перспективных сорта: Мэдисон, Мадейра, Бернина.
@@ -41,7 +41,7 @@
 						<p class="newses-date">15.02.2018</p>
 						<a href="" class="about-news">Читать далее</a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 order-1 order-lg-2">
 						<div class="newses-img">
 							<img src="img/newses2.png">
 						</div>
@@ -72,7 +72,7 @@
 		<div class="news-block">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7 newses-description">
+					<div class="col-lg-7 newses-description order-2 order-lg-1">
 						<p class="newses-title">НОВИНКИ 2017 года! Мэдисон, Мадейра, Бернина!</p>
 						<p>
 							Внесены в реестр 3 новых перспективных сорта: Мэдисон, Мадейра, Бернина.
@@ -80,7 +80,7 @@
 						<p class="newses-date">15.02.2018</p>
 						<a href="" class="about-news">Читать далее</a>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-lg-5 order-1 order-lg-2">
 						<div class="newses-img">
 							<img src="img/newses2.png">
 						</div>
