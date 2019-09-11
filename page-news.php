@@ -13,7 +13,7 @@
 	<section class="news-img container">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="text-left">Международный "День картофельного поля" GRIMME 2016</h2>
+				<h2 class="text-left news-h2">Международный "День картофельного поля" GRIMME 2016</h2>
 			</div>
 			<div class="col-12 imgW100">
 				<img src="img/bg4.png">

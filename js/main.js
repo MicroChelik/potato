@@ -25,6 +25,13 @@ $(document).ready(function(){
 		$(this).toggleClass("active");
 	})
 
+	$('.product-close').click(function(){
+		$(this).parent().parent().hide();
+	});
+	$('.clearBtn').click(function(){
+		$('.product-row').hide();
+	})
+
 	$('.inc').click(function () {
 		var $input = $(this).parent().find('input');
 		$input.val(parseInt($input.val()) + 1);
@@ -108,6 +115,7 @@ $(document).ready(function(){
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		swipeToSlide: true,
+		focusOnSelect: true,
 		arrows: true,
 		prevArrow: '.slider-for-product-prev',
 		nextArrow: '.slider-for-product-next',

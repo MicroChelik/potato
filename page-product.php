@@ -16,28 +16,44 @@
 			<div class="col-lg-6">
 				 <div class="slider-product">
 				 	<div>
-				 		<img src="img/product-img1.png">
-				 		<a href="img/product-img1.png" data-fancybox="images" class="zoom">
+				 		<div class="product-img">
+				 			<img src="img/product-img1.png">
+				 		</div>
+				 		<div class="product-zoom">
+				 			<a href="img/product-img1.png" data-fancybox="images" class="zoom">
 				 			<img src="img/icons/zoom.svg">
 				 		</a>
+				 		</div>
 				 	</div>
 				 	<div>
-				 		<img src="img/product1.png">
-				 		<a href="img/product1.png" data-fancybox="images" class="zoom">
-				 			<img src="img/icons/zoom.svg">
-				 		</a>
+				 		<div class="product-img">
+				 			<img src="img/product1.png">
+				 		</div>
+				 		<div class="product-zoom">
+				 			<a href="img/product1.png" data-fancybox="images" class="zoom">
+					 			<img src="img/icons/zoom.svg">
+					 		</a>
+				 		</div>	
 				 	</div>
 				 	<div>
-				 		<img src="img/product2.png">
-				 		<a href="img/product2.png" data-fancybox="images" class="zoom">
-				 			<img src="img/icons/zoom.svg">
-				 		</a>
+				 		<div class="product-img">
+				 			<img src="img/product2.png">
+				 		</div>
+				 		<div class="product-zoom">
+				 			<a href="img/product2.png" data-fancybox="images" class="zoom">
+					 			<img src="img/icons/zoom.svg">
+					 		</a>
+				 		</div>
 				 	</div>
 				 	<div>
-				 		<img src="img/product3.png">
-				 		<a href="img/product3.png" data-fancybox="images" class="zoom">
-				 			<img src="img/icons/zoom.svg">
-				 		</a>
+				 		<div class="product-img">
+				 			<img src="img/product3.png">
+				 		</div>
+				 		<div class="product-zoom">
+				 			<a href="img/product3.png" data-fancybox="images" class="zoom">
+					 			<img src="img/icons/zoom.svg">
+					 		</a>
+				 		</div>
 				 	</div>
 				 </div>
 				 <div class="slider-for-product">
@@ -68,8 +84,30 @@
 				<p>Высокоурожайный, очень ранний краснокожурый сорт. Характеризуется крупными клубнями. Важное преимущество – пластичность, что позволяет использовать его как стартовый тип сорта для предприятий, только начавших возделывать картофель. Высокая устойчивость к засухе</p>
 				<p>Фасовка товара по:</p>
 				<div class="d-flex greenBtns">
-					<button>4 кг/ 400 руб</button>
-					<button>От одной тонны</button>
+					<a href="page-basket.php"><button class="active">4 кг/ 400 руб</button></a>
+					<a data-fancybox data-animation-duration="700" data-src="#orderProduct" href="javascript:;"><button>От одной тонны</button></a>
+						<div style="display: none;" id="orderProduct" class="animated-modal">
+							<div class="card">
+								<div class="card-header">
+									<h1>Заказать товар</h1>
+								</div>
+								<div class="card-body">
+									<form class="my-form">
+										<input type="text" placeholder="Ваше имя*" required="">
+										<input type="email" placeholder="Ваш e-mail*" required="">
+										<input type="tel" placeholder="Ваш номер телефона*" required="">
+										<div class="d-flex align-items-center">
+											<input type="number" placeholder="Кол-во товара*" required="" class="inputCount"><p>тонн</p>
+										</div>
+										<textarea placeholder="Комментарий" required=""></textarea>
+										<p>
+											Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+										</p>
+										<input type="submit" placeholder="Отправить" class="greenBtn">
+									</form>
+								</div>
+							</div>
+						</div>
 				</div>
 				<p>* При покупке в розничном магазине скидка 50%</p>
 			</div>

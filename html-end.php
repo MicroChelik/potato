@@ -12,7 +12,7 @@
 					<img src="img/footerLogo.png" class="mb-4">
 					<div class="d-flex align-items-center mb-4">
 						<p class="mb-0 mr-3">Мы в соцсетях:</p>
-						<img src="img/vk.png">
+						<a href=""><img src="img/vk.png"></a>
 					</div>
 					<a data-fancybox data-animation-duration="700" data-src="#writeUs" href="javascript:;">
 						<button class="lightGreenBtn">Написать нам</button>
@@ -131,8 +131,8 @@
 			</div>
 			<div class="row align-items-center">
 				<div class="col-7">
-					<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
-						<button class="greenBtn">Обратный звонок</button>
+					<a data-fancybox data-animation-duration="700" data-src="#writeUs" href="javascript:;">
+						<button class="lightGreenBtn">Написать нам</button>
 					</a>
 				</div>
 				<div class="col-5">

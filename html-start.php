@@ -24,7 +24,7 @@
 				<div class="col-3 d-flex align-items-center">
 					<img src="img/icons/phone.svg">
 					<p class="decorition">
-						<a href="tel:(3412) 62-23-51">(3412) 62-23-51</a> <br> <a href="tel:(3412) 62-13-35">(3412) 62-13-35</a>
+						<a href="">(3412) 62-23-51</a> <br> <a href="">(3412) 62-13-35</a>
 					</p>
 				</div>
 				<div class="col-2">
@@ -66,7 +66,7 @@
 				</div>
 				<div class="col-4 d-flex align-items-center justify-content-center">
 					<img src="img/icons/mail.svg" class="mr-3">
-					<p class="decorition"><a href="mailto:roseuroplant@yandex.ru">roseuroplant@yandex.ru</a></p>
+					<p class="decorition"><a href="">roseuroplant@yandex.ru</a></p>
 				</div>
 				<div class="col-1 d-flex align-items-center justify-content-between">
 					<a href="">
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-block d-lg-none">
+		<div class="d-block d-lg-none mobile-header">
 			<div class="container">
 				<div class="row mob-nav-row">
 					<div class="col-auto">
@@ -97,13 +97,13 @@
 						</div>
 					</div>
 					<div class="col-auto">
-						<img src="img/logo-mob.png">
+						<a href="index.php"><img src="img/logo-mob.png"></a>
 					</div>
 					<div class="col-auto d-flex align-items-center justify-content-between">
 						<div class="greenBg" noselect>
 							<p>(1)</p>
 						</div>
-						<a href="">
+						<a href="page-basket.php">
 							<img src="img/icons/basket.svg">
 						</a>
 					</div>

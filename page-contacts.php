@@ -38,8 +38,8 @@
 					<input type="email" placeholder="Ваш email *">
 					<input type="tel" placeholder="Ваш номер телефона *">
 					<textarea placeholder="Ваш комментарий*" rows="3"></textarea>
-					<div class="d-flex justify-content-between">
-						<p class="mb-0">
+					<div class="d-flex justify-content-between form-p">
+						<p class="mb-lg-0">
 							Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 						</p>
 						<input type="submit" class="green-input">
